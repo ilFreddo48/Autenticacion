@@ -1,0 +1,12 @@
+controllers/RegistrationController.class
+domain/User.class
+domain/UserAccount.class
+domain/Authority.class
+domain/DomainEntity.class
+com/voting/registre/CustomerRepository.class
+repositories/RegistrationRepository.class
+services/RegistrationService.class
+com/voting/registre/Customer.class
+domain/Actor.class
+com/voting/registre/RegistreApplication.class
+domain/Administrator.class

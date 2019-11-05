@@ -1,0 +1,19 @@
+-------------------------------USER ACCOUNT ---------------------------------------
+--INSERT  'user_account' ('id', 'version', 'password', 'username') VALUES ('1', '1', '123456', 'admin1');
+--INSERT  'user_account' ('id', 'version', 'password', 'username') VALUES ('2', '1', '123456', 'admin2');
+--INSERT  'user_account' ('id', 'version', 'password', 'username') VALUES ('3', '1', '123456', 'user1');
+
+--------------------------------USER ACCOUNT AUTHORITY---------------------
+--INSERT INTO 'user_account_authorities' ('user_account_id', 'authority') VALUES ('1' , 'ADMINISTRATOR');
+--INSERT INTO 'user_account_authorities' ('user_account_id', 'authority') VALUES ('2' , 'ADMINISTRATOR');
+--INSERT INTO 'user_account_authorities' ('user_account_id', 'authority') VALUES ('3' , 'USER');
+--
+--------------------------------- USER --------------------------------------------
+--INSERT INTO 'administrator'('id', 'version',	'adress', 'email',	'name',	'phone','surname', 'user_account_id')
+--				  values ('4', '1', 'Calle xxxx xxxx', 'admin@gmail.com', 'admin', '654123', 'admin', '1');
+--				  
+--INSERT INTO 'administrator'('id', 'version',	'adress', 'email',	'name',	'phone','surname', 'user_account_id')
+--				  values ('5', '1', 'Calle xxxx xxxx', 'admin@gmail.com', 'admin2', '654123', 'admin2', '2');
+--
+--INSERT INTO 'user'('id', 'version',	'adress', 'email',	'name',	'phone','surname', 'user_account_id')
+--				  values ('6', '1', 'Calle xxxx xxxx', 'user@gmail.com', 'user', '654123', 'user', '3');
